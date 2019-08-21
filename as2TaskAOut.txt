@@ -1,0 +1,794 @@
+MongoDB shell version v3.4.10
+connecting to: mongodb://127.0.0.1:27017
+MongoDB server version: 3.4.10
+FIT_COMPLEX    0.000GB
+FIT_db         0.000GB
+admin          0.000GB
+ass2           0.001GB
+fit5148_db     0.000GB
+fit5148_dbnew  0.000GB
+fit5148_newdb  0.000GB
+local          0.000GB
+test           0.005GB
+switched to db fit5148_db
+climate
+fire
+{
+	"createdCollectionAutomatically" : false,
+	"numIndexesBefore" : 1,
+	"numIndexesAfter" : 2,
+	"ok" : 1
+}
+{
+	"_id" : ObjectId("5b017bd53b3a8b66dda2d02c"),
+	"Station" : 948702,
+	"Date" : "2017-12-15",
+	"Air Temperature(Celcius)" : 18,
+	"Relative Humidity" : 52,
+	"WindSpeed  (knots)" : 7.1,
+	"Max Wind Speed" : 14,
+	"MAX" : "74.5*",
+	"MIN" : 53.1,
+	"Precipitation" : "0.00I"
+}
+{
+	"createdCollectionAutomatically" : false,
+	"numIndexesBefore" : 1,
+	"numIndexesAfter" : 2,
+	"ok" : 1
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d079"),
+	"Latitude" : -37.642,
+	"Longitude" : 149.263,
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 65
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d09c"),
+	"Latitude" : -37.862,
+	"Longitude" : 144.175,
+	"Confidence" : 87,
+	"Surface Temperature (Celcius)" : 65
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d0c1"),
+	"Latitude" : -37.331,
+	"Longitude" : 143.122,
+	"Confidence" : 90,
+	"Surface Temperature (Celcius)" : 65
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d0fa"),
+	"Latitude" : -37.46,
+	"Longitude" : 148.102,
+	"Confidence" : 88,
+	"Surface Temperature (Celcius)" : 65
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d119"),
+	"Latitude" : -37.446,
+	"Longitude" : 148.102,
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 65
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d13d"),
+	"Latitude" : -37.396,
+	"Longitude" : 148.086,
+	"Confidence" : 100,
+	"Surface Temperature (Celcius)" : 65
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d168"),
+	"Latitude" : -38.3998,
+	"Longitude" : 147.064,
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d1ea"),
+	"Latitude" : -38.4792,
+	"Longitude" : 146.3081,
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d233"),
+	"Latitude" : -36.5661,
+	"Longitude" : 142.2956,
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d24f"),
+	"Latitude" : -35.4666,
+	"Longitude" : 142.0749,
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d2a4"),
+	"Latitude" : -36.7218,
+	"Longitude" : 141.6411,
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d3ef"),
+	"Latitude" : -36.4143,
+	"Longitude" : 143.272,
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d4b8"),
+	"Latitude" : -37.876,
+	"Longitude" : 143.7804,
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d4f1"),
+	"Latitude" : -36.2618,
+	"Longitude" : 141.8783,
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d539"),
+	"Latitude" : -37.0959,
+	"Longitude" : 143.8206,
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d605"),
+	"Latitude" : -34.9023,
+	"Longitude" : 142.0557,
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d674"),
+	"Latitude" : -36.73,
+	"Longitude" : 143.935,
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d6b5"),
+	"Latitude" : -36.0295,
+	"Longitude" : 143.6409,
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d6e3"),
+	"Latitude" : -38.1561,
+	"Longitude" : 143.7846,
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d6fd"),
+	"Latitude" : -35.7642,
+	"Longitude" : 143.3321,
+	"Confidence" : 89,
+	"Surface Temperature (Celcius)" : 65
+}
+Type "it" for more
+{
+	"createdCollectionAutomatically" : false,
+	"numIndexesBefore" : 1,
+	"numIndexesAfter" : 2,
+	"ok" : 1
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d05a"),
+	"Date" : "2017-12-15",
+	"Surface Temperature (Celcius)" : 42,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18,
+			"Relative Humidity" : 52,
+			"Max Wind Speed" : 14
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d05b"),
+	"Date" : "2017-12-15",
+	"Surface Temperature (Celcius)" : 36,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18,
+			"Relative Humidity" : 52,
+			"Max Wind Speed" : 14
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d05c"),
+	"Date" : "2017-12-15",
+	"Surface Temperature (Celcius)" : 38,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18,
+			"Relative Humidity" : 52,
+			"Max Wind Speed" : 14
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d05d"),
+	"Date" : "2017-12-15",
+	"Surface Temperature (Celcius)" : 40,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18,
+			"Relative Humidity" : 52,
+			"Max Wind Speed" : 14
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d04b"),
+	"Date" : "2017-12-16",
+	"Surface Temperature (Celcius)" : 43,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18,
+			"Relative Humidity" : 53.7,
+			"Max Wind Speed" : 13
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d04d"),
+	"Date" : "2017-12-16",
+	"Surface Temperature (Celcius)" : 33,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18,
+			"Relative Humidity" : 53.7,
+			"Max Wind Speed" : 13
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d04e"),
+	"Date" : "2017-12-16",
+	"Surface Temperature (Celcius)" : 54,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18,
+			"Relative Humidity" : 53.7,
+			"Max Wind Speed" : 13
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d04f"),
+	"Date" : "2017-12-16",
+	"Surface Temperature (Celcius)" : 73,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18,
+			"Relative Humidity" : 53.7,
+			"Max Wind Speed" : 13
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d050"),
+	"Date" : "2017-12-16",
+	"Surface Temperature (Celcius)" : 75,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18,
+			"Relative Humidity" : 53.7,
+			"Max Wind Speed" : 13
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d051"),
+	"Date" : "2017-12-16",
+	"Surface Temperature (Celcius)" : 55,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18,
+			"Relative Humidity" : 53.7,
+			"Max Wind Speed" : 13
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d052"),
+	"Date" : "2017-12-16",
+	"Surface Temperature (Celcius)" : 66,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18,
+			"Relative Humidity" : 53.7,
+			"Max Wind Speed" : 13
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d053"),
+	"Date" : "2017-12-16",
+	"Surface Temperature (Celcius)" : 56,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18,
+			"Relative Humidity" : 53.7,
+			"Max Wind Speed" : 13
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d054"),
+	"Date" : "2017-12-16",
+	"Surface Temperature (Celcius)" : 60,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18,
+			"Relative Humidity" : 53.7,
+			"Max Wind Speed" : 13
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d055"),
+	"Date" : "2017-12-16",
+	"Surface Temperature (Celcius)" : 73,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18,
+			"Relative Humidity" : 53.7,
+			"Max Wind Speed" : 13
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d056"),
+	"Date" : "2017-12-16",
+	"Surface Temperature (Celcius)" : 48,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18,
+			"Relative Humidity" : 53.7,
+			"Max Wind Speed" : 13
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d057"),
+	"Date" : "2017-12-16",
+	"Surface Temperature (Celcius)" : 55,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18,
+			"Relative Humidity" : 53.7,
+			"Max Wind Speed" : 13
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d058"),
+	"Date" : "2017-12-16",
+	"Surface Temperature (Celcius)" : 64,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18,
+			"Relative Humidity" : 53.7,
+			"Max Wind Speed" : 13
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d059"),
+	"Date" : "2017-12-16",
+	"Surface Temperature (Celcius)" : 57,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18,
+			"Relative Humidity" : 53.7,
+			"Max Wind Speed" : 13
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d061"),
+	"Date" : "2017-12-16",
+	"Surface Temperature (Celcius)" : 55,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18,
+			"Relative Humidity" : 53.7,
+			"Max Wind Speed" : 13
+		}
+	]
+}
+{
+	"createdCollectionAutomatically" : false,
+	"numIndexesBefore" : 2,
+	"numIndexesAfter" : 3,
+	"ok" : 1
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d049"),
+	"Datetime" : "2017-12-25T04:29:08",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 17
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d0aa"),
+	"Datetime" : "2017-11-11T13:30:08",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 37,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 18
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d0cd"),
+	"Datetime" : "2017-10-20T04:41:19",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 46,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 13
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d0e9"),
+	"Datetime" : "2017-10-04T04:41:00",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 46,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 19
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d0ea"),
+	"Datetime" : "2017-10-04T04:41:02",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 46,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 19
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d144"),
+	"Datetime" : "2017-09-23T04:59:11",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 50,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 17
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d152"),
+	"Datetime" : "2017-09-10T04:00:00",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 11
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d15f"),
+	"Datetime" : "2017-08-13T05:05:10",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 15
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d1cf"),
+	"Datetime" : "2017-05-22T04:43:30",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 17
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d230"),
+	"Datetime" : "2017-05-15T04:26:20",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 10
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d2b0"),
+	"Datetime" : "2017-05-11T04:50:40",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 9
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d2e7"),
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 10
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d2ec"),
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 10
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d2f2"),
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 10
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d2f9"),
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 10
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d324"),
+	"Datetime" : "2017-05-10T04:08:10",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 10
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d33a"),
+	"Datetime" : "2017-05-08T04:20:40",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 12
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d382"),
+	"Datetime" : "2017-05-04T04:51:40",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 54,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 10
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d385"),
+	"Datetime" : "2017-05-04T04:51:20",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 10
+		}
+	]
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d38c"),
+	"Datetime" : "2017-05-04T04:48:10",
+	"Confidence" : 80,
+	"Surface Temperature (Celcius)" : 53,
+	"Climate" : [
+		{
+			"Air Temperature(Celcius)" : 10
+		}
+	]
+}
+Type "it" for more
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d4e8"),
+	"Latitude" : -38.1665,
+	"Longitude" : 143.062,
+	"Surface Temperature (kelvin)" : 397.5,
+	"Datetime" : "2017-04-18T04:52:00",
+	"Power" : 239.8,
+	"Confidence" : 100,
+	"Date" : "2017-04-18",
+	"Surface Temperature (Celcius)" : 124
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d993"),
+	"Latitude" : -36.343,
+	"Longitude" : 142.1986,
+	"Surface Temperature (kelvin)" : 396.3,
+	"Datetime" : "2017-04-04T04:32:50",
+	"Power" : 233.4,
+	"Confidence" : 100,
+	"Date" : "2017-04-04",
+	"Surface Temperature (Celcius)" : 123
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d45a"),
+	"Latitude" : -36.9318,
+	"Longitude" : 143.0907,
+	"Surface Temperature (kelvin)" : 396,
+	"Datetime" : "2017-05-01T04:14:20",
+	"Power" : 236,
+	"Confidence" : 100,
+	"Date" : "2017-05-01",
+	"Surface Temperature (Celcius)" : 122
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2da82"),
+	"Latitude" : -37.017,
+	"Longitude" : 148.1297,
+	"Surface Temperature (kelvin)" : 394.3,
+	"Datetime" : "2017-03-18T03:50:50",
+	"Power" : 224.3,
+	"Confidence" : 100,
+	"Date" : "2017-03-18",
+	"Surface Temperature (Celcius)" : 121
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d99a"),
+	"Latitude" : -36.3521,
+	"Longitude" : 142.2008,
+	"Surface Temperature (kelvin)" : 394,
+	"Datetime" : "2017-04-04T04:32:40",
+	"Power" : 218.7,
+	"Confidence" : 100,
+	"Date" : "2017-04-04",
+	"Surface Temperature (Celcius)" : 120
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d95a"),
+	"Latitude" : -36.1057,
+	"Longitude" : 141.7608,
+	"Surface Temperature (kelvin)" : 393.8,
+	"Datetime" : "2017-04-04T04:40:00",
+	"Power" : 212.5,
+	"Confidence" : 100,
+	"Date" : "2017-04-04",
+	"Surface Temperature (Celcius)" : 120
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d704"),
+	"Latitude" : -37.0745,
+	"Longitude" : 141.0692,
+	"Surface Temperature (kelvin)" : 393.7,
+	"Datetime" : "2017-04-13T04:28:10",
+	"Power" : 218.7,
+	"Confidence" : 100,
+	"Date" : "2017-04-13",
+	"Surface Temperature (Celcius)" : 120
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d586"),
+	"Latitude" : -37.8326,
+	"Longitude" : 143.4999,
+	"Surface Temperature (kelvin)" : 393.8,
+	"Datetime" : "2017-04-18T04:44:50",
+	"Power" : 220.4,
+	"Confidence" : 100,
+	"Date" : "2017-04-18",
+	"Surface Temperature (Celcius)" : 120
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d26b"),
+	"Latitude" : -34.9938,
+	"Longitude" : 141.876,
+	"Surface Temperature (kelvin)" : 394,
+	"Datetime" : "2017-05-13T04:40:20",
+	"Power" : 223.8,
+	"Confidence" : 100,
+	"Date" : "2017-05-13",
+	"Surface Temperature (Celcius)" : 120
+}
+{
+	"_id" : ObjectId("5b017bdb3b3a8b66dda2d3af"),
+	"Latitude" : -36.4057,
+	"Longitude" : 140.9806,
+	"Surface Temperature (kelvin)" : 392.2,
+	"Datetime" : "2017-05-04T04:44:50",
+	"Power" : 214.4,
+	"Confidence" : 100,
+	"Date" : "2017-05-04",
+	"Surface Temperature (Celcius)" : 119
+}
+{ "_id" : "2017-12-27", "total_number" : 4 }
+{ "_id" : "2017-12-25", "total_number" : 1 }
+{ "_id" : "2017-12-24", "total_number" : 1 }
+{ "_id" : "2017-12-21", "total_number" : 1 }
+{ "_id" : "2017-12-16", "total_number" : 15 }
+{ "_id" : "2017-12-15", "total_number" : 4 }
+{ "_id" : "2017-12-14", "total_number" : 1 }
+{ "_id" : "2017-12-13", "total_number" : 1 }
+{ "_id" : "2017-12-12", "total_number" : 1 }
+{ "_id" : "2017-12-10", "total_number" : 2 }
+{ "_id" : "2017-12-09", "total_number" : 4 }
+{ "_id" : "2017-12-08", "total_number" : 5 }
+{ "_id" : "2017-11-30", "total_number" : 31 }
+{ "_id" : "2017-11-29", "total_number" : 8 }
+{ "_id" : "2017-11-28", "total_number" : 1 }
+{ "_id" : "2017-11-23", "total_number" : 5 }
+{ "_id" : "2017-11-22", "total_number" : 2 }
+{ "_id" : "2017-11-21", "total_number" : 1 }
+{ "_id" : "2017-11-14", "total_number" : 3 }
+{ "_id" : "2017-11-13", "total_number" : 5 }
+Type "it" for more
+{ "_id" : "2017-12-27", "Average" : 62.75 }
+{ "_id" : "2017-12-25", "Average" : 54 }
+{ "_id" : "2017-12-24", "Average" : 32 }
+{ "_id" : "2017-12-21", "Average" : 46 }
+{ "_id" : "2017-12-16", "Average" : 57.8 }
+{ "_id" : "2017-12-15", "Average" : 39 }
+{ "_id" : "2017-12-14", "Average" : 70 }
+{ "_id" : "2017-12-13", "Average" : 60 }
+{ "_id" : "2017-12-12", "Average" : 44 }
+{ "_id" : "2017-12-10", "Average" : 46 }
+{ "_id" : "2017-12-09", "Average" : 58.25 }
+{ "_id" : "2017-12-08", "Average" : 50.6 }
+{ "_id" : "2017-11-30", "Average" : 52.41935483870968 }
+{ "_id" : "2017-11-29", "Average" : 60.625 }
+{ "_id" : "2017-11-28", "Average" : 42 }
+{ "_id" : "2017-11-23", "Average" : 58.8 }
+{ "_id" : "2017-11-22", "Average" : 61.5 }
+{ "_id" : "2017-11-21", "Average" : 59 }
+{ "_id" : "2017-11-14", "Average" : 52 }
+{ "_id" : "2017-11-13", "Average" : 47 }
+Type "it" for more
+bye
